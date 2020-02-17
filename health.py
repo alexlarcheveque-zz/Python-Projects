@@ -9,3 +9,4 @@ potion_health = int(random.randint(25, 50) / difficulty)
 health += potion_health
 
 print(health)
+ 
