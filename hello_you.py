@@ -16,7 +16,8 @@ hobbies = input("What do you enjoy?: ")
 
 #Create output text
 
-output = name + age + city + hobbies
+string = "Your name is {} and you are {} years old. You live in {} and you enjoy {}"
+output = string.format(name, age, city, hobbies)
 
 #Print output to screen
 
